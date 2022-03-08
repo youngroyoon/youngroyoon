@@ -1,0 +1,21 @@
+{
+  "name": "nodejs2",
+  "version": "0.1.0",
+  "description": "nodejs2",
+  "main": "hello-world-server.js",
+  "scripts": {
+    "install": "npm install --save package.json",
+    "build": "mkdir -p dist && cp -R node_modules hello-world-server.js ./dist",
+    "start": "node hello-world-server",
+    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "node.js",
+    "eclipse",
+    "nodeclipse"
+  ],
+  "author": "",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
